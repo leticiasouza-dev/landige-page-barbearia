@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1rem 0;
+}
+
+header img:first-child{ /*estilizando a primeira img*/
+    width: 7rem;
+    height: 7rem;
+}
+
+header img:last-child{ /*estilizando a segunda img*/
+    width: 2rem;
+    height: 2rem;
+}
