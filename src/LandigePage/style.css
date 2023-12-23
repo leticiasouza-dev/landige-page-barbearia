@@ -3,6 +3,41 @@
     color: black;
 }
 
+.modo-escuro{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1rem 0;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 25rem;
+
+    display: flex;
+    align-items: center;
+    padding: 1rem ;
+}
+
+.logo{
+   width: 4rem;
+   height: 4rem; 
+}
+
+header button img:first-child{ /*estilizando a primeira img*/
+    width: 2rem;
+    height: 2rem;
+}
+
+
 .sessaoBanner{
     background-image: url(/public/assets/banner-barbearia.jpg);
     background-size: cover;
