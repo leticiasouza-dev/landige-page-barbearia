@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import LandigePage from '../src/LandigePage';
 import './App.css';
 
