@@ -1,0 +1,41 @@
+.modo-claro{
+    background-color: white;
+    color: black;
+}
+
+.sessaoBanner{
+    background-image: url(/public/assets/banner-barbearia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 50vh;
+}
+
+.sessaoConteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessaoConteudo div{
+    width: 70%;
+    text-align: center;
+
+    padding: 4rem 0;
+}
+
+.sessaoConteudo h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sessaoConteudo div p{
+    padding-bottom: 2rem;
+}
+
+.paragrafo-diferente{
+    color: #BCA68F;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+}

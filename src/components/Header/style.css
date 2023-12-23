@@ -12,12 +12,23 @@ header{
     padding: 1rem 0;
 }
 
-header img:first-child{ /*estilizando a primeira img*/
-    width: 7rem;
-    height: 7rem;
+button{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 25rem;
+
+    display: flex;
+    align-items: center;
+    padding: 1rem ;
 }
 
-header img:last-child{ /*estilizando a segunda img*/
+.logo{
+   width: 4rem;
+   height: 4rem; 
+}
+
+header button img:first-child{ /*estilizando a primeira img*/
     width: 2rem;
     height: 2rem;
 }

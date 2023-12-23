@@ -4,9 +4,13 @@ import './style.css'
 function Header(){
     return (
         <header>
-            <img src="/assets/barbearia-logo.png" alt=""/>
+            <img src="/assets/barbearia-logo.png" alt="" className="logo"/>
 
-            <img src='/assets/moon.png' alt=''/>
+            <button>
+                <img src='/assets/moon.png' alt=''/>
+                <p>Dark</p>
+            </button>
+            
         </header>
     )
 }
